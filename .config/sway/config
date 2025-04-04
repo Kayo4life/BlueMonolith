@@ -8,8 +8,8 @@ set $term cool-retro-term --profile BlueMonolith
 set $menu wofi --show drun
 
 # Wallpaper
-set $wallpaper $HOME/Pictures/Wallpaper/BlueMonolith/LA.png
-exec_always swaybg -i $wallpaper
+exec_always swaybg -o HDMI-A-1 -i $HOME/Pictures/Wallpaper/BlueMonolith/LA.png -m fit
+exec_always swaybg -o eDP-1 -i $HOME/Pictures/Wallpaper/BlueMonolith/LA0.png -m fit
 bindsym $mod+End exec swaylock -i $lock_bg
 
 # Input Configuration
